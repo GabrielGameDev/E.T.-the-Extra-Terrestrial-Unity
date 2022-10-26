@@ -13,7 +13,7 @@ public class PlayerInteractions : MonoBehaviour
 	public GameObject[] cameras;
 	public Transform[] spawnPoints;
 
-	public AudioClip eatSound, actionSound, telephoneSound;
+	public AudioClip eatSound, actionSound, telephoneSound, modemSound;
 
 	public GameObject spaceShip;
 	public GameObject telephone;
@@ -71,6 +71,7 @@ public class PlayerInteractions : MonoBehaviour
 				}
 				else if(actionZone.action == Action.callSpaceship)
 				{
+					audioSource.PlayOneShot(modemSound);
 					audioSource.PlayOneShot(actionSound);
 					UpdateScore(500);
 					spaceShip.SetActive(true);

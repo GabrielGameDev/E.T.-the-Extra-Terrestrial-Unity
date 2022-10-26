@@ -918,6 +918,7 @@ MonoBehaviour:
   eatSound: {fileID: 8300000, guid: 2b21ef916f6943c439b71a7c74568878, type: 3}
   actionSound: {fileID: 8300000, guid: fd25a15f9797641458336cccfb445343, type: 3}
   telephoneSound: {fileID: 8300000, guid: ba39bf8baf6d13046889b2d64822381a, type: 3}
+  modemSound: {fileID: 8300000, guid: 4389f2421784a4842a56c885a130451c, type: 3}
   spaceShip: {fileID: 0}
   telephone: {fileID: 0}
 --- !u!114 &5364018581924386775
